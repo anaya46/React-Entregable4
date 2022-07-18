@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+   
+}
+.App{
+    display: flex;
+    flex-direction: row;
+}
+ul{
+    list-style: none;
+}
+.container__card{
+    display: flex;
+    flex-direction: column;
+    background-color: #95A3A4;
+    gap: 1rem;
+    margin: 2rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    width: 50%;
+    
+}
+.card{
+    background-color: #E2E8DD;
+    width: 90%;
+    height: auto;
+    border-radius: 12px;
+    padding-bottom: 2rem;
+}
+.item__card{
+    text-align: left;
+    margin-left: 2rem;
+}
+.container__form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 2rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    width: 50%;
+    background-color: #B7D1DA;
+    height: 50%;
+
+}
+.upload{
+    background-color: #697268;
+    color: #E2E8DD;
+    border-radius: 12px;
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+    border: none;
+}
+.input__container{
+    text-align: left;
+    margin-left: 3rem;
+  }
+.icon{
+    margin-right: 2rem;
+}
+input{
+    border: none;
+    height: 1.5rem;
+    
+}
+.title__form{
+    color:  #697268;
+}
+#first_name, #last_name{
+    width: 40%;
+}
+#email, #password, #birthday{
+    width: 81%;
+}
+.pencil, .trash{
+    border-color: #E2E8DD;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
